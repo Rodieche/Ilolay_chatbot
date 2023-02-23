@@ -1,4 +1,4 @@
 {
-    "scriptId": ${secret.SCRIPTID},
+    "scriptId": ${{secrets.SCRIPTID}},
     "rootDir":"src"
 }
