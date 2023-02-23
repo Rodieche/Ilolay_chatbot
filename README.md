@@ -19,3 +19,4 @@ Create a file called **.clasp.json** with the next code:
     "rootDir":"src"
 }
 ```
+and add it to **.gitignore** file
