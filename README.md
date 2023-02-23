@@ -8,3 +8,14 @@
 
 Backend: Google Apps Script  
 Environment: clasp
+
+# Secrets
+
+Create a file called **.clasp.json** with the next code:
+
+``[javascript]
+{
+    "scriptId": ${{secrets.SCRIPTID}},
+    "rootDir":"src"
+}
+``
