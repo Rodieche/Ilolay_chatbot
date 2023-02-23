@@ -13,9 +13,9 @@ Environment: clasp
 
 Create a file called **.clasp.json** with the next code:
 
-``[javascript]
+```javascript
 {
     "scriptId": ${{secrets.SCRIPTID}},
     "rootDir":"src"
 }
-``
+```
