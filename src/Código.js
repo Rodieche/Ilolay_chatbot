@@ -19,6 +19,10 @@ function onMessage(event) {
   switch (texto.toLowerCase()) {
     case "menu":
       return printMenu();
+    case "mikrotik":
+      return cardStepCreatorMikrotik();
+    case "meraki":
+      return mainMeraki();
     default :
       const respuesta = verificarSaludo(texto.toLowerCase());
       return respuesta? printDefault(respuesta) : printDefault(); 
