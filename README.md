@@ -6,6 +6,9 @@
 * Enterprise: Sucesores de Alfredo Williner S.A.
 * Area: Information Technology
 
+> [!IMPORTANT]
+> This Bot was develop to be used by Information Technology inside Savencia S.A. (Ilolay). All data displayed by the bot is limited to company use.
+
 Backend: Google Apps Script  
 Environment: clasp
 
